@@ -1,3 +1,8 @@
+/**
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
 #include <stdio.h>
 int main(void)
 {
@@ -7,6 +12,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-	printf("%c\n", putchar(c));
+	putchar('\n');
 	return (0);
 }

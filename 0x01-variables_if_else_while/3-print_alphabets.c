@@ -1,7 +1,7 @@
 /**
 * main - Prints the alphabet.
 *
-* Returns alwayes alphabit
+* Return: Always 0 (Success)
 */
 #include <stdio.h>
 int main(void)

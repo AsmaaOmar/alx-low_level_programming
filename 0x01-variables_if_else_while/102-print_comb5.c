@@ -7,42 +7,39 @@
 #include<stdio.h>
 int main(void)
 {
-	int n = 48;
-	int m = 48;
+	int i, j, k, m;
 
-	while (n < 58)
+	i = 48;
+	while (i < 58)
 	{
-		m = 48;
-		while (m < 57)
+		j = 48;
+		while (j < 58)
 		{
-			int i = 48;
-			int j = 48;
-			i = n;
-			j = m + 1;
-			while (i < 58)
+			m = j + 1;
+			k = i;
+			while (k < 58)
 			{
-			
-			
-				while (j < 58)
+				while (m < 58)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(' ');
 					putchar(i);
 					putchar(j);
-					if (n != 57 || m != 56 || i != 57 || j != 57)
+					putchar(32);
+					putchar(k);
+					putchar(m);
+					if (i < 57 || j < 56 || k < 57 || m < 57)
 					{
-						putchar(',');
-						putchar(' ');
+						putchar(44);
+						putchar(32);
 					}
-					j++;
+					m++;
 				}
-				i++;
+				m = 48;
+				k++;
 			}
-			m++;
+			j++;
 		}
-		n++;
+		i++;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }

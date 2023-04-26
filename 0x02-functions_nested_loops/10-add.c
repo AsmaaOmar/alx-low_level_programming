@@ -1,6 +1,6 @@
 /**
  * add - check the code
- * @n: int to be added to 
+ * @n: int to be added to
  * @m: int to be added to n
  * Return: Always 0.
  */

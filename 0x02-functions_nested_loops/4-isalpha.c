@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - checks for lowercase character.
+ * _isalpha - checks for lowercase character.
  * @c: The character to print
  * Return: On success 1.
  */

@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - prints the sum of the two diagonals of a square matrix of integers.
+ * print_diagsums - prints the sum of the two diagonals .
  * @a: casting an int[][] into an int*
  * @size: size of an array of array is stored in memory.
  * Return: Always 0 (Success)

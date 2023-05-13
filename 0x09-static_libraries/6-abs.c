@@ -1,0 +1,13 @@
+/**
+ * _abs - checks for lowercase character.
+ * @n: The character to print
+ * Return: On success 1.
+ */
+#include "main.h"
+int _abs(int n)
+{
+	if (n >= 0)
+		return (n);
+	else
+		return (n * -1);
+}

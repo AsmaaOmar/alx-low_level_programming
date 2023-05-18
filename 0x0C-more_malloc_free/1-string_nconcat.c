@@ -17,10 +17,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		;
 	for (s2_len = 0; s2_len != '\0'; s2_len++)
 		;
-	if (n < s2_len)
-		c = malloc(sizeof(char) * (s1_len + n + 1));
-	else
-		c = malloc(sizeof(char) * (s1_len + s2_len + 1));
+	/*if (n < s2_len)*/
+	c = malloc(sizeof(char) * (s1_len + n + 1));
+	/*else*/
+		/*c = malloc(sizeof(char) * (s1_len + s2_len + 1));*/
 	if (c == NULL)
 		return (NULL);
 
